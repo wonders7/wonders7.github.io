@@ -1,0 +1,37 @@
+.wonders {
+    margin-top: 17px;
+    transform: rotateZ(-25deg);
+}
+
+#carouselExampleSlidesOnly {
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+}
+
+.col-12 {
+    padding-bottom: 25px; 
+}
+
+h5 {
+   padding-top: 25px; 
+}
+
+img {
+   border-radius: 10px;
+}
+
+img:hover {
+    opacity: .9; 
+}
+
+.title {
+    padding: 25px;
+}
+
+i {
+    color: green;
+    padding: 10px;
+}
+
