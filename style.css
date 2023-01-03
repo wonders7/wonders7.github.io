@@ -1,37 +1,121 @@
-.wonders {
-    margin-top: 17px;
-    transform: rotateZ(-25deg);
+body {
+  background-image: url(img/pyramids.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-#carouselExampleSlidesOnly {
-    height: 500px;
-    margin: auto;
-    text-align: center;
-    width: 250px;
+html {
+  scroll-behavior: smooth;
 }
 
-.col-12 {
-    padding-bottom: 25px; 
+.navbar a {
+  color: white !important;
 }
 
-h5 {
-   padding-top: 25px; 
+.navbar.scroll {
+  background: white !important;
+  opacity: 0.9;
+  transition: 1s;
 }
 
-img {
-   border-radius: 10px;
+.navbar.scroll a {
+  color: green !important;
 }
 
-img:hover {
-    opacity: .9; 
+.navbar.scroll a.active {
+  color: yellowgreen !important;
 }
 
-.title {
-    padding: 25px;
+ul {
+  font-family: roboto !important;
 }
 
-i {
-    color: green;
-    padding: 10px;
+#carousel {
+  margin-top: 80px;
 }
 
+.jumbotron {
+  opacity: 0.9;
+  background: lightyellow;
+  color: dimgray;
+  /*padding: 100px;*/
+}
+
+.card {
+  background: none;
+  border: none;
+}
+
+button {
+  opacity: 0.9;
+}
+
+.modal-title {
+  margin: auto;
+  color: dimgray;
+}
+
+.modal-body {
+  color: dimgray;
+}
+
+.contact {
+  padding: 70px 0px;
+}
+
+h2 {
+  color: white;
+}
+
+.contact input,
+.contact textarea {
+  background: whitesmoke;
+  opacity: 0.9;
+}
+
+.contact textarea {
+  min-height: 188px;
+  max-width: 100%;
+}
+
+.contact .map {
+  overflow: hidden;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  color: white !important;
+}
+
+.fa-facebook-square {
+  margin: 10px;
+  color: #013b80;
+}
+
+.fa-odnoklassniki-square {
+  margin: 10px;
+  color: #f58220;
+}
+
+.fa-youtube-play {
+  margin: 10px;
+  color: #ff0000;
+}
+
+.fa-twitter {
+  margin: 10px;
+  color: #1ca0f1;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.copyright {
+  color: black;
+}
