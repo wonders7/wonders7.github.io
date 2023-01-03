@@ -1,185 +1,1175 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta name="yandex-verification" content="da5fcbdbab0888c4" />
-    <meta charset="utf-8">
-    <title>Աշխարհի նոր յոթ հրաշալիքներ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="lightbox.css">
-    <script type=text/javascript src="jquery-1.11.0.min.js"></script>
-    <script type=text/javascript src="lightbox.js"></script>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>7 Wonders</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--[if lte IE 11]>
-<div style="border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;">  
-    <div style="position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;">
-        <a href="#" onclick="javascript:this.parentNode.parentNode.style.display='none'; return false;">
-            <img src="img/close.png" border="0" alt="Փակել այս ծանուցումը">
-        </a>
+  <div class="container col-8 text-center">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="index.html"><img src="img/favicon.png" height="35"></a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#old">Հին աշխարհի 7 հրաշալիքներ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#new">Աշխարհի նոր 7 հրաշալիքներ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nature">Բնության 7 հրաշալիքներ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#city">Հրաշալի 7 քաղաքներ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">ԿԱՊ</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Որոնում">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Որոնում</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/old wonders/Egyptian pyramids.png" alt="Եգիպտական բուրգեր"
+            title="Եգիպտական բուրգեր" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a href="#old">
+                <p href="#" class="badge badge-secondary">Հին աշխարհի 7 հրաշալիքներ</p>
+              </a>
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/new wonders/Petra.png" alt="Պետրա" title="Պետրա" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a href="#new">
+                <p href="#" class="badge badge-secondary">Աշխարհի նոր 7 հրաշալիքներ</p>
+              </a>
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/nature wonders/Iguazu Falls.jpg" alt="Իգուասուի ջրվեժներ"
+            title="Իգուասուի ջրվեժներ" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a href="#nature">
+                <p href="#" class="badge badge-secondary">Բնության 7 հրաշալիքներ</p>
+              </a>
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/wonderful cities/Havana.jpg" alt="Հավանա" title="Հավանա" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>
+              <a href="#city">
+                <p href="#" class="badge badge-secondary">Հրաշալի 7 քաղաքներ</p>
+              </a>
+            </h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <div style="width: 700px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;">
-        <div style="width: 75px; float: left;">
-            <img src="img/attention.png" alt="Զգուշացում!">
-        </div>
-        <div style="width: 270px; float: left; font-family: Arial, sans-serif;">
-            <div style="font-size: 14px; font-weight: bold; margin-top: 12px;">Ձեր զննարկիչը հնացած է</div>
-            <div style="font-size: 12px; margin-top: 6px; line-height: 12px;">Օգտագործեք առաջարկվող զննարկիչները՝ կայքերը ճիշտ դիտելու համար:</div>
-        </div>
-        <div style="width: 75px; float: left;">
-            <a href="https://www.google.com/intl/ru/chrome/" target="_blank">
-                <img src="img/chrome.png" border="0" alt="Ներբեռնել Google Chrome">
-            </a>
-        </div>
-        <div style="width: 75px; float: left;">
-            <a href="http://www.opera.com/ru" target="_blank">
-                <img src="img/opera.png" border="0" alt="Ներբեռնել Opera">
-            </a>
-        </div>
-        <div style="width: 75px; float: left;">
-            <a href="https://www.mozilla.org/hy-AM/firefox/" target="_blank">
-                <img src="Img/firefox.png" border="0" alt="Ներբեռնել Firefox">
-            </a>
-        </div>
+    <br>
+    <!-- Jumbotron -->
+    <div id="old" class="jumbotron change">
+      <br>
+      <br>
+      <h6>Հին աշխարհի 7 հրաշալիքներ</h6>
+      <br>
+      <p class="lead">Հրաշալիքների առաջին ցանկը մ. թ. ա. 5-րդ դարում կազմել է Հերոդոտոսը, որը քաջատեղյակ էր Եգիպտոսի
+        ու
+        Առաջավոր Ասիայի ճարտարապետությանը։
+        <br>
+        <br>
+        Նրա ուղեցույց-գրքում արձանագրվել են եգիպտական բուրգերը, Ալեքսանդրիայի փարոսը, Զևսի արձանն Օլիմպոսում, Հռոդոսի
+        կոթողը, Շամիրամի կախովի այգիները, Հալիկառնասի դամբարանը և Արտեմիսի տաճարը Եփեսոսում։ Հին աշխարհի 7 հրաշալիքներից
+        ներկայումս պահպանվել են միայն եգիպտական բուրգերը՝ հին եգիպտական թագավորների՝ փարավոնների դամբարանները, որոնք
+        կառուցվել են Եգիպտոսի մայրաքաղաք Կահիրեից դեպի հարավ ձգվող Գիզա սարավանդի վրա։
+      </p>
+      <br>
+      <br>
     </div>
-</div>
-<![endif]-->
-    <a href=""><img src="img/7W.png" alt="" height="50" width="100" class="wonders"></a>
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner text-success">
-            <div class="carousel-item active">
-                <img src="img/New7Wonders.jpg" height="250" width="177" alt="" class="d-block w-100">
-                <h5>Աշխարհի նոր յոթ հրաշալիքներ</h5>
-            </div>
-            <div class="carousel-item">
-                <img src="img/1024px-GreatWallNearBeijingWinter.jpg" height="156" width="250" alt=""
-                    class="d-block w-100">
-                <h5>Չինական մեծ պարիսպ</h5>
-                <p>Չինաստան</p>
-            </div>
-            <div class="carousel-item">
-                <img src="img/1024px-Colosseum_in_Rome,_Italy_-_April_2007.jpg" height="145" width="250" alt=""
-                    class="d-block w-100">
-                <h5>Կոլիզեյ</h5>
-                <p>Հռոմ, Իտալիա</p>
-            </div>
-            <div class="carousel-item">
-                <img src=img/800px-Peru_Machu_Picchu_Sunrise.jpg height="333" width="250" alt="" class="d-block w-100">
-                <h5>Մաչու Պիկչու</h5>
-                <p>Պերու</p>
-            </div>
-            <div class="carousel-item">
-                <img src="img/800px-Petra_Jordan_BW_37.jpg" height="170" width="250" alt="" class="d-block w-100">
-                <h5>Պետրա</h5>
-                <p>Հորդանան</p>
-            </div>
-            <div class="carousel-item">
-                <img src="img/1024px-Taj_Mahal_2012.jpg" height="143" width="250" alt="" class="d-block w-100">
-                <h5>Թաջ Մահալ</h5>
-                <p>Ագրա, Հնդկաստան</p>
-            </div>
-            <div class="carousel-item">
-                <img src="img/800px-Cristo_Redentor_-_Rio_de_Janeiro,_Brasil.jpg" height="372" width="250" alt=""
-                    class="d-block w-100">
-                <h5>Հիսուս Քրիստոսի արձան</h5>
-                <p>Ռիո դե Ժանեյրո, Բրազիլիա</p>
-            </div>
-            <div class="carousel-item">
-                <img src="img/800px-El_Castillo_Stitch_2008_Edit_1.jpg" height="160" width="250" alt=""
-                    class="d-block w-100">
-                <h5>Չիչեն Իցա</h5>
-                <p>Յուկատան, Մեքսիկա</p>
-            </div>
-            <div class="carousel-item">
-                <img src="img/800px-All_Gizah_Pyramids.jpg" height="166" width="250" alt="" class="d-block w-100">
-                <h5>Գիզայի բուրգեր (պատվավոր թեկնածու)</h5>
-                <p>Եգիպտոս</p>
-            </div>
-        </div>
+    <!-- Video -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="" src="https://www.youtube.com/embed/qTI5g6cttME" allowfullscreen></iframe>
     </div>
-
-    <div class="container text-success text-center">
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-light navbar-expand-lg">
-                    <button class="navbar-toggler" type="button" data-target="#my-nav" data-toggle="collapse">
-                        <span class="navbar-toggler-icon"></span></button>
-                    <div id="my-nav" class="collapse navbar-collapse justify-content-center">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active"><a class="nav-link" href="#"><button
-                                        class="btn btn-outline-success active" type="button">Աշխարհի նոր յոթ
-                                        հրաշալիքներ</button></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-outline-success"
-                                        type="button">Հին աշխարհի յոթ հրաշալիքներ</button></a></li>
-                            <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-outline-success"
-                                        type="button">Լավագույն յոթ թեկնածուներ</button></a></li>
-                        </ul>
-                    </div>
-                </nav>
+    <br>
+    <!-- Cards and modal-->
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Egyptian pyramids.png">
+            <img class="card-img-top" src="img/old wonders/Egyptian pyramids.png" alt="Եգիպտական բուրգեր"
+              title="Եգիպտական բուրգեր" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Եգիպտական բուրգեր</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Աշխարհի 7 հրաշալիքների ցանկում ամենամեծ՝ Քեոփսի բուրգը, կառուցվել է մ. թ. ա. մոտ 2580 թ-ին։ Բուրգի
+                    բարձրությունը 147 մ է, հիմքի կողմի երկարությունը՝ 233 մ, կառուցված է 2.300 քարաբեկորներից, որոնցից
+                    յուրաքանչյուրը կշռում է միջին հաշվով 2, 5 տոննա։ Ըստ հույն ճանապարհորդ-պատմիչ Հերոդոտոսի՝ բուրգի
+                    կառուցումը տևել է 20 տարի, աշխատանքներին մասնակցել է 100 հազար ստրուկ։
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div class="col-12">
-                <h1 class="font-weight-normal">Աշխարհի նոր յոթ հրաշալիքներ</h1>
-            </div>
-
-            <div class="col-sm-6 col-lg-4"><a href="img/1024px-GreatWallNearBeijingWinter.jpg" data-lightbox="image"
-                    data-title="Չինական մեծ պարիսպ"><img src="img/1024px-GreatWallNearBeijingWinter.jpg"
-                        class="img-fluid" alt=""></a>
-                <div class="title"><b>Չինական մեծ պարիսպ</b><br>Չինաստան</div>
-            </div>
-            <div class="col-sm-6 col-lg-4"><a href="img/1024px-Colosseum_in_Rome,_Italy_-_April_2007.jpg"
-                    data-lightbox="image" data-title="Կոլիզեյ"><img
-                        src="img/1024px-Colosseum_in_Rome,_Italy_-_April_2007.jpg" class="img-fluid" alt=""></a>
-                <div class="title"><b>Կոլիզեյ</b><br>Հռոմ, Իտալիա</div>
-            </div>
-            <div class="col-sm-6 col-lg-4"><a href="img/800px-Peru_Machu_Picchu_Sunrise.jpg" data-lightbox="image"
-                    data-title="Մաչու Պիկչու"><img src="img/800px-Peru_Machu_Picchu_Sunrise.jpg" class="img-fluid"
-                        alt=""></a>
-                <div class="title"><b>Մաչու Պիկչու</b><br>Պերու</div>
-            </div>
-            <div class="col-sm-6 col-lg-4"><a href="img/800px-Petra_Jordan_BW_37.jpg" data-lightbox="image"
-                    data-title="Պետրա"><img src="img/800px-Petra_Jordan_BW_37.jpg" class="img-fluid" alt=""></a>
-                <div class="title"><b>Պետրա</b><br>Հորդանան</div>
-            </div>
-            <div class="col-sm-6 col-lg-4"><a href="img/1024px-Taj_Mahal_2012.jpg" data-lightbox="image"
-                    data-title="Թաջ Մահալ"><img src="img/1024px-Taj_Mahal_2012.jpg" class="img-fluid" alt=""></a>
-                <div class="title"><b>Թաջ Մահալ</b><br>Ագրա, Հնդկաստան</div>
-            </div>
-            <div class="col-sm-6 col-lg-4"><a href="img/800px-Cristo_Redentor_-_Rio_de_Janeiro,_Brasil.jpg"
-                    data-lightbox="image" data-title="Հիսուս Քրիստոսի արձան"><img
-                        src="img/800px-Cristo_Redentor_-_Rio_de_Janeiro,_Brasil.jpg" class="img-fluid" alt=""></a>
-                <div class="title"><b>Հիսուս Քրիստոսի արձան</b><br>Ռիո դե Ժանեյրո, Բրազիլիա</div>
-            </div>
-            <div class="col-sm-6 col-lg-6"><a href="img/800px-El_Castillo_Stitch_2008_Edit_1.jpg" data-lightbox="image"
-                    data-title="Չիչեն Իցա"><img src="img/800px-El_Castillo_Stitch_2008_Edit_1.jpg" class="img-fluid"
-                        alt=""></a>
-                <div class="title"><b>Չիչեն Իցա</b><br>Յուկատան, Մեքսիկա</div>
-            </div>
-            <div class="col-sm-6 col-lg-6"><a href="img/800px-All_Gizah_Pyramids.jpg" data-lightbox="image"
-                    data-title="Գիզայի բուրգեր (պատվավոր թեկնածու)"><img src="img/800px-All_Gizah_Pyramids.jpg"
-                        class="img-fluid" alt=""></a>
-                <div class="title"><b>Գիզայի բուրգեր</b> (պատվավոր թեկնածու)<br>Եգիպտոս</div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Lighthouse of Alexandria.png">
+            <img class="card-img-top" src="img/old wonders/Lighthouse of Alexandria.png" alt="Ալեքսանդրիայի փարոս"
+              title="Ալեքսանդրիայի փարոս" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId2">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Ալեքսանդրիայի փարոս</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Եգիպտոսի Ալեքսանդրիա քաղաքի մերձակա Փարոս կղզում մ. թ. ա. 320-ական թվականներին կառուցվել է հին
+                    ժամանակների ամենամեծ փարոսը՝ 135 մ բարձրությամբ եռահարկ աշտարակ, որը տեսանելի էր 60–100 կմ
+                    հեռավորությունից։ Փարոսը կործանվել է 1100 թ-ի երկրաշարժից (այլ տվյալներով՝ 1304 թ-ի կամ 1346 թ-ի
+                    երկրաշարժերից)։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Statue of Zeus.png">
+            <img class="card-img-top" src="img/old wonders/Statue of Zeus.png" alt="Զևսի արձան" title="Զևսի արձան" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId3">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId3" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Զևսի արձան</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Հունաստանի Օլիմպոս քաղաքի՝ Զևսին նվիրված տաճարում էր 12 մ 40 սմ բարձրությամբ նրա արձանը, որը կերտել
+                    էր Ֆիդիասը մ. թ. ա. 440-ական թվականներին։ V դարի սկզբին տաճարն ավերվելուց հետո Զևսի արձանը
+                    տեղափոխվել է Կոստանդնուպոլիս, որտեղ 462 թ-ին ոչնչացել է հրդեհից։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="float-right"><a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></div>
-    <p class="text-center">&#169; 7w 2020</p>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Rhodes Memorial.png">
+            <img class="card-img-top" src="img/old wonders/Rhodes Memorial.png" alt="Հռոդոսի կոթող"
+              title="Հռոդոսի կոթող" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId4">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId4" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Հռոդոսի կոթող</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Մ. թ. ա. III դարում Էգեյան ծովի Հռոդոս կղզու բնակիչները, ի նշանավորումն եգիպտացիների դեմ տարած
+                    հաղթանակի, կանգնեցրել են Արևի աստված Հելիոսի՝ աշխարհի ամենամեծ՝ 36-մ-անոց արձանը՝ թշնամուց առգրավված
+                    զենքի մետաղից։ Կոթողը կանգուն է եղել 56 տարի եւ կործանվել է մ. թ. ա. 222 թ.-ին՝ երկրաշարժից։
+                    Նավահանգստի հատակից հայտնաբերված արձանի աջ ձեռքի դաստակը պահվում է Բրիտանական թանգարանում:<br><br>
+                    Հին աշխարհում Հռոդոսյան կոթողի վրայով անցնող միջօրեականը համարվում էր առաջին կամ գլխավոր
+                    միջօրեականը։ Բայց 16-րդ դարում այդ միջօրեականը տեղափոխել են Կանարյան կղզիներ, ապա Փարիզ, իսկ 1884
+                    թվականին՝ Գրինվիչ:
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Hanging Gardens of Shamiram.png">
+            <img class="card-img-top" src="img/old wonders/Hanging Gardens of Shamiram.png"
+              alt="Շամիրամի կախովի այգիներ" title="Շամիրամի կախովի այգիներ" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId5">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId5" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Շամիրամի կախովի այգիներ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Շամիրամի կախովի այգիները գտնվում էին Ասորեստանի Բաբելոն քաղաքում։ Ավանդությունն այդ այգիների
+                    ստեղծումը վերագրում է Շամիրամ թագուհուն, սակայն իրականում դրանք ստեղծվել են Նաբուգոդոնոսոր թագավորի
+                    հրամանով՝ մ. թ. ա. VI դարում։ Նա իր պալատը կառուցել էր 6 հարկանի տան բարձրությամբ արհեստական հարթակի
+                    վրա։ Դեպի այդ հարթակն աստիճանաձև բարձրանում էր աղյուսե 6 կամարասրահ։ Ամեն աստիճանի վրա հողի շերտ էր
+                    լցված և պարտեզ էր գցված։ Մ. թ. ա. 312 թ-ին կառույցը փլվել է ջրհեղեղներից։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Mausoleum at Halicarnassus.png">
+            <img class="card-img-top" src="img/old wonders/Mausoleum at Halicarnassus.png" alt="Հալիկառնասի դամբարան"
+              title="Հալիկառնասի դամբարան" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId6">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId6" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Հալիկառնասի դամբարան</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Հալիկառնասում (ներկայիս Թուրքիայի Բոդրում քաղաքի մերձակայքում) էր գտնվում աշխարհի հրաշալիքներից
+                    հաջորդը՝ Մավսոլես թագավորի հոյակերտ դամբարանը, որը կառուցել էր նրա այրին՝ Արտեմիսը, մ. թ. ա. 353
+                    թ-ին։ Առաջին հարկը, որտեղ տեղադրված էր Մավսոլեսի աճյունասափորը, ուներ 8,9 մ լայնություն, 42,3 մ
+                    երկարություն, 11,1 մ բարձրություն, իսկ դամբարանի ընդհանուր բարձրությունը 60 մ էր։ Դամբարանը կանգուն
+                    է եղել 1800 տարի։ Մավսոլեսի և նրա կնոջ արձանները պահվում են Բրիտանական թանգարանում։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/old wonders/Temple of Artemis.png">
+            <img class="card-img-top" src="img/old wonders/Temple of Artemis.png" alt="Արտեմիսի տաճար"
+              title="Արտեմիսի տաճար" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId7">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId7" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Արտեմիսի տաճար</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Մյուս հրաշալիքը հունական աստվածուհի Արտեմիսի մարմարե տաճարն էր Փոքր Ասիայի Եփեսոս քաղաքում։ Տաճարը
+                    սկսել է կառուցվել մ. թ. ա. 550 թ-ին, շինարարությունը տևել է 120 տարի։ Նախագծել է հույն ճարտարապետ
+                    Քերսիֆրոնեսը։ Շենքը զարդարող արձան-արձանիկների մի մասի հեղինակը Ֆիդիասն է։ Արտեմիսի տաճարը կանգուն է
+                    եղել 100 տարի։ Մ. թ. ա. 356 թ-ին եփեսացի Հերոստրատեսը, փառամոլության մոլուցքից կուրացած, հրդեհել է
+                    տաճարը։ 25 տարի անց այն վերակառուցվել է, սակայն ավերվել է երկրաշարժերից։ Տաճարի հարթաքանդակներից մի
+                    քանիսը պահվում են Բրիտանական թանգարանում։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div id="new" class="jumbotron change">
+      <br>
+      <br>
+      <h6>Աշխարհի նոր 7 հրաշալիքներ</h6>
+      <br>
+      <p class="lead">2007 թվականին ՅՈՒՆԵՍԿՕ-ի որոշմամբ ընտրվել են աշխարհի նոր 7 հրաշալիքներ՝ Պետրան, Չինական մեծ
+        պարիսպը, Հռոմի Կոլիզեումը, Չիչեն-Իցա, Մաչու-Պիկչու քաղաքները, Թաջ Մահալ դամբարանը և Հիսուս Քրիստոսի արձանը
+        Բրազիլիայում։ Եգիպտական բուրգերին՝ որպես Հին աշխարհի միակ կանգուն հրաշալիքի, տրվել է պատվավոր հրաշալիքի
+        կարգավիճակ։
+      </p>
+      <br>
+      <br>
+    </div>
+    <!-- Video -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="" src="https://www.youtube.com/embed/iyty45Earvo" allowfullscreen></iframe>
+    </div>
+    <br>
+    <!-- Cards and modal -->
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Petra.png">
+            <img class="card-img-top" src="img/new wonders/Petra.png" alt="Պետրա" title="Պետրա" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId8">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId8" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Պետրա</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Պետրա ժայռափոր քաղաքն Առաջավոր Ասիայում Էդոմ կամ Իդումեա երկրի, ավելի ուշ՝ Նաբաթեական թագավորության
+                    մայրաքաղաքն էր։ Քաղաքը ներկայիս Հորդանանի տարածքում է՝ ծովի մակերևույթից 900 մ բարձրությամ ժայռերի
+                    մեջ։ Մ. թ. ա. 6-րդ դարից քաղաքը կորցրել է իր նշանակությունը։ Պետրայում հայտնաբերվել են լավ պահպանված
+                    պալատներ, դամբարաններ, հնագույն թատրոն և այլ շինություններ։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Great Wall of China.png">
+            <img class="card-img-top" src="img/new wonders/Great Wall of China.png" alt="Չինական մեծ պարիսպ"
+              title="Չինական մեծ պարիսպ" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId9">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId9" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Չինական մեծ պարիսպ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Չինական մեծ պարիսպը վիթխարի հուշարձան է, որը 2450 կմ երկարությամբ (ճյուղավորումներով՝ 6–6, 5 հզ. կմ)
+                    ձգվում է արևելքից արևմուտք, բարձրությունը 6, 6 մ է։ Պարսպի սկզբնահատվածները կառուցվել են մ. թ. ա.
+                    4-3-րդ դարերում, իսկ Չինաստանի միավորումից (մ. թ. ա. 221 թվական) հետո կանգնեցվել է պաշտպանական հոծ
+                    պատը։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Colosseum.png">
+            <img class="card-img-top" src="img/new wonders/Colosseum.png" alt="Կոլիզեում" title="Կոլիզեում" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId10">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId10" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Կոլիզեում</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Կոլիզեումը հին հռոմեական ճարտարապետական հուշարձան է՝ 50 հզ տեղանոց ամֆիթատրոն. կառուցվել է 75–80
+                    թթ-ին։ Նախատեսված էր գլադիատորների մարտերի և ներկայացումների համար։ Պահպանվել է Կոլիզեումի մի մասը։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Chichen Itza.png">
+            <img class="card-img-top" src="img/new wonders/Chichen Itza.png" alt="Չիչեն-Իցա" title="Չիչեն-Իցա" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId11">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId11" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Չիչեն-Իցա</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Չիչեն-Իցա քաղաքը Մեքսիկայի Յուկատան թերակղզում է, եղել է մայա ժողովրդի քաղաքական և մշակութային
+                    կենտրոնը։ Հիմնադրվել է հավանաբար 8-րդ դարում։ 11-րդ դարի կեսից Չիչեն-Իցան տոլտեկների պետության
+                    մայրաքաղաքն էր, որը 1178 թվականին ավերել են Մայապան, Ուշմալ և Իցմալ քաղաք-պետությունների զորքերը։
+                    Բազմաթիվ պեղումներով բացվել են քաղաքի հուշարձաններից մի քանիսը՝ Կուկուլկանի տաճարը (24 մ
+                    բարձրությամբ իննաստիճանի բուրգ է), Հովազների տաճարը, Զինվորների տաճարը, Կարակոլ աստղադիտարանը,
+                    գնդակախաղի 7 մարզադաշտ և այլն։ Պահպանվել են նաև աստվածների ոճավորված արձաններ, հարուստ
+                    զարդապատկերներով բարձրաքանդակներ։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Machu Picchu.png">
+            <img class="card-img-top" src="img/new wonders/Machu Picchu.png" alt="Մաչու-Պիկչու" title="Մաչու-Պիկչու" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId12">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId12" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Մաչու-Պիկչու</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Մաչու-Պիկչու քաղաքը, որ ներկայիս Պերուի տարածքում է, հայտնի է նաև «Ինկերի կորած քաղաք» անունով, իսկ
+                    բառացի նշանակում է «հին գագաթ»։ Կառուցել է ինկերի տիրակալ Պաչակուտեկը 1440 թ-ին, գոյատևել է մինչև
+                    1532 թ.։ Շուրջ 400 տարի այդ քաղաքը մոռացված էր։ 1911 թվականին հայտնաբերել է ամերիկացի հետազոտող,
+                    Յեյլի համալսարանի պրոֆեսոր Հայրեմ Բինգհեմը։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Taj Mahal.png">
+            <img class="card-img-top" src="img/new wonders/Taj Mahal.png" alt="Թաջ Մահալ" title="Թաջ Մահալ" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId13">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId13" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Թաջ Մահալ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Թաջ Մահալը (հայերեն՝ Թագի պալատ) Ջահան շահի կնոջ դամբարանն է (այնտեղ հետագայում թաղվել է նաև Ջահան
+                    շահը), կառուցվել է 1630–1652 թվականներին՝ Ջամնա գետի ափին՝ Ագրայի մոտ։ 74 մ բարձրությամբ
+                    հինգգմբեթանի շենք է՝ կից պարտեզով։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/new wonders/Christ the Redeemer.png">
+            <img class="card-img-top" src="img/new wonders/Christ the Redeemer.png" alt="Հիսուս Քրիստոսի արձան"
+              title="Հիսուս Քրիստոսի արձան" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId14">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId14" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Հիսուս Քրիստոսի արձան</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Հիսուս Քրիստոսի արձանը Ռիո դե Ժանեյրո քաղաքի մերձակայքում է՝ Կորկովադու լեռան վրա՝ ծովի մակերևույթից
+                    704 մ բարձր։ Կառուցվել է 1922–1931 թվականներին, բարձրությունը 37 մ է։ Հեղինակներն են Հեիտոր դա
+                    Սիլվան և Պոլ Լանդովսկին։ Վերջին 75 տարում 2 անգամ նորոգվել է։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div id="nature" class="jumbotron change">
+      <br>
+      <br>
+      <h6>Բնության 7 հրաշալիքներ</h6>
+      <br>
+      <p class="lead">Վիթխարի հրաբխային խառնարաններ, անծայրածիր կուսական անտառներ, կիլոմետրերով ձգվող շիկացած
+        ավազաթմբեր. այս տեսարանները, անշուշտ, վեր են երևակայությունից և հանդիսանում են Մայր բնության «գլուխգործոցները»,
+        հայտնում է Oddity Central-ը։<br><br>Շնորհիվ այս բնական հրաշալիքների մեր մոլորակը եզակի գեղեցկություն է ձեռք
+        բերել, սակայն անհրաժեշտ պահպանություն չապահովելու դեպքում մարդկությունը շատ արագ կարող է զրկվել դրանցից։
+      </p>
+      <br>
+      <br>
+    </div>
+    <!-- Video -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="" src="https://www.youtube.com/embed/I5yJQPxGcfk" allowfullscreen></iframe>
+    </div>
+    <br>
+    <!-- Cards and modal -->
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Iguazu Falls.jpg">
+            <img class="card-img-top" src="img/nature wonders/Iguazu Falls.jpg" alt="Իգուասուի ջրվեժներ"
+              title="Իգուասուի ջրվեժներ" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId15">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId15" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Իգուասուի ջրվեժներ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Այս ջրվեժների խումբը գտնվում է Բրազիլիայի և Արգենտինայի սահմանին և կիսվում 2 երկրների միջև։
+                    Թարգմանաբար Իգուասու նշանակում է «մեծ ջուր»։ Ընդհանուր առմամբ այն ունի 2.7 կմ երկարություն և իր մեջ
+                    է ներառում 270 ջրվեժ։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Puerto Princesa Underground River.jpg">
+            <img class="card-img-top" src="img/nature wonders/Puerto Princesa Underground River.jpg"
+              alt="Պուերտո Պրինցեսա ստորգետնյա գետ" title="Պուերտո Պրինցեսա ստորգետնյա գետ" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId16">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId16" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Պուերտո Պրինցեսա ստորգետնյա գետ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Պուերտո-Պրենսա գետի ստորգետնյա գետի ազգային պարկը, որը ՅՈՒՆԵՍԿՕ-ի Համաշխարհային ժառանգության օբյեկտ
+                    է, շրջապատում է աշխարհի ամենաերկար ստորգետնյա գետերից մեկը: Գետի 5 մղոն ստորգետնյա հատվածը թափվում է
+                    օվկիանոսը ՝ հոսելով կրակոտ քարայրում, որը լի է տպավորիչ կազմավորումներով և բնակեցված է չղջիկներով,
+                    կապիկներով, ծովային օձերով և այլ վայրի բնություններով: PPUR տուրիստական ​​ընկերությունն առաջարկում է
+                    էքսկուրսիաներ դեպի այգի ՝ սկսած Պուերտո Պրինցեսա քաղաքից, մոտ 45 րոպե հեռավորության վրա:
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Komodo island.jpg">
+            <img class="card-img-top" src="img/nature wonders/Komodo island.jpg" alt="Կոմոդո" title="Կոմոդո" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId17">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId17" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Կոմոդո</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Կոմոդոն 17508 կղզիներից մեկն է, որը կազմում է Ինդոնեզիայի Հանրապետությունը: Կղզին հատկապես նշանավոր
+                    է որպես Երկրի ամենամեծ մողես Կոմոդոյի վիշապի բնակավայր, որն անվանակոչվել է կղզու անունով:
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Amazon.jpg">
+            <img class="card-img-top" src="img/nature wonders/Amazon.jpg" alt="Ամազոն" title="Ամազոն" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId18">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId18" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Ամազոն</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Ամազոն (իսպ.՝ և պորտ.՝ Rio Amazonas), գետ Հարավային Ամերիկայում, աշխարհի ամենամեծ ավազան ունեցող
+                    գետն է (7180 կմ²)։ Ըստ որոշ հաշվարկների՝ համարվում է ամենաերկարն աշխարհում։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Hạ Long Bay.jpg">
+            <img class="card-img-top" src="img/nature wonders/Hạ Long Bay.jpg" alt="Հալոնգ ծովածոց"
+              title="Հալոնգ ծովածոց" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId19">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId19" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Հալոնգ ծովածոց</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Այս գեղատեսիլ ծովածոցը ևս ընդգրկված է ՅՈՒՆԵՍԿՕ-ի համաշխարհային ժառանգության ցուցակում.դրա անվանումը
+                    թարգմանաբար նշանակում է «վիշապի իջած վայրը»։ Հալոնգը հայտնի է զմրուխտե ջրերից վեր խոյացող կանաչապատ
+                    ժայռերով, որոնք ձևավորվել են 20 մլն տարվա ընթացքում՝ արևադարձային խոնավ կլիմայի արդյունքում։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Table Mountain.jpg">
+            <img class="card-img-top" src="img/nature wonders/Table Mountain.jpg" alt="Սեղանաձև լեռ"
+              title="Սեղանաձև լեռ" /></a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId20">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId20" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Սեղանաձև լեռ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Սեղանաձև լեռ (Table Mountain նամա լեզվով՝ Huri ‡oaxa, ծովից վեր հառնող լեռ, աֆրիկաանս՝ Tafelberg,
+                    անգլ.՝ Table Mountain), տափակ գագաթով լեռ, որտեղից գեղատեսիլ համայնապատկեր է բացվում դեպի
+                    հարավաֆրիկյան Քեյփթաուն քաղաք։ Քաղաքի տեսարժանություններից մեկն է, ուր հասնելու համար շատ
+                    զբոսաշրջիկներ օգտվում են այնտեղ բարձրացող ճոպանուղուց, ոմանք էլ նախընտրում են քայլելով հասնել գագաթ։
+                    Լեռն ընդգրկված է Սեղանաձև լեռան ազգային պարկի կազմում։ Այստեղ կա բազմազան կենդանական և բուսական
+                    աշխարհ։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/nature wonders/Jeju island.jpg">
+            <img class="card-img-top" src="img/nature wonders/Jeju island.jpg" alt="Ջեջու կղզի" title="Ջեջու կղզի" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId21">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId21" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Ջեջու կղզի</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Ջեջու, հրաբխային կղզի Արևելաչինական ծովում, Կորեական թերակղզուց հարավ-արևմուտք։ Պատկանում է
+                    Հարավային Կորեային։ Վարչականորեն կազմում է Ջեջու նահանգը։ Կղզում է գտնվում Հարավային Կորեայի
+                    ամենաբարձր կետը՝ Հալասան հրաբուխը։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div id="city" class="jumbotron change">
+      <br>
+      <br>
+      <h6>Հրաշալի 7 քաղաքներ</h6>
+      <br>
+      <p class="lead">Հավանան, Դոհան, Բեյրութը, Լա Պազը, Կուալա Լումպուրը, Վիգանը և Դուրբանը կոչվել են աշխարհի 7 հրաշալի
+        քաղաքներ: Քաղաքների քվեարկությունը կազմակերպել էր New 7 Wonders Cities համաշխարհային նախագիծը:
+        <br>
+        <br>
+        New 7 Wonders Cities նախագիծը կազմակերպվել էր Շվեյցարիայում 2012թ.։ Ավելի քան 2000 քաղաքներ, աշխարհի 220
+        երկրներից, մասնակցել է համացանցային քվեարկությանը՝ հրաշք քաղաքներ ժամանակակից աշխարհում կոչման համար:
+        Քվեարկությանը մասնակցում էր 600 միլիոն մարդ ամբողջ աշխարհից:
+      </p>
+      <br>
+      <br>
+    </div>
+    <!-- Video -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="" src="https://www.youtube.com/embed/tMPcd7aziMI" allowfullscreen></iframe>
+    </div>
+    <br>
+    <!-- Cards and modal -->
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/Havana.jpg">
+            <img class="card-img-top" src="img/wonderful cities/Havana.jpg" alt="Հավանա" title="Հավանա" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId22">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId22" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Հավանա</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Հիմնադրել է իսպանացի կոնկիստադոր Դիեգո Վելասկեսը 1515 թվականին Կուբա կղզու հարավային ափին։ Այդ
+                    կոչվել է Սան Կրիստոբալ՝ ի պատիվ Քրիստափոր Կոլումբոսի։ Սակայն 1519 թվականին քաղաքը փոխադրվել է կղզու
+                    հյուսիսարևմտյան ափ և նոր տեղում սկսել է կոչվել Սան Կրիստոբալ դե լա Հավանա («Սուրբ Քրիստափոր
+                    Հավանացի»), բայց այդ անունը չպահպանվեց․ դրանից մնաց միայն վերջին մասը (իսպ.՝ La Habana), ինչպես
+                    պատահել է այն ժամանակվա իսպանական և պորտուգալական շատ այլ անվանումների հետ։
+                    <br>
+                    <br>
+                    Ենթադրում են, որ Հավանա բառն առաջացել է Sabana ― «սավաննա», այսինքն՝ «բարձրախոտային տափաստան»
+                    ժողովրդական աշխարհագրական տերմինից, քանի որ կղզու արևելյան լեռնային շրջանների բնակիչները նրա
+                    արևմտյան դաշտային մասն անվանում էին սավաննա։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/Beirut.jpg">
+            <img class="card-img-top" src="img/wonderful cities/Beirut.jpg" alt="Բեյրութ" title="Բեյրութ" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId23">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId23" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Բեյրութ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Բեյրութ, Բերութա կամ Բերիթ անունով հայտնի է մ․թ․ա․18-րդ դարից, որպես փյունիկյան քաղաք։ 1943 թվականի
+                    նոյեմբերից անկախ Լիբանանի Հանրապետության մայրաքաղաքն է։ 20-րդ դարի 20-ական թվականներից Բեյրութն
+                    ազգային-ազատագրական և հեղափոխական շարժումների կենտրոն է։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/Wigan.jpg">
+            <img class="card-img-top" src="img/wonderful cities/Wigan.jpg" alt="Վիգան" title="Վիգան" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId24">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId24" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Վիգան</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Վիգան (անգլ.՝ City of Vigan, իսպ.՝ La Ciudad de Vigan, Ciudad Fernandina de Vigan, թագ․՝ Lungsod ng
+                    Vigan), Ֆիլիպինների Հարավային Իլոկոս նահանգի վարչական կենտրոնը։ Քաղաքը ընդգրկում է 11 կմ² տարածք։
+                    Բնակչությունը 53,879 մարդ է (2015)[3]։ Բնակչության խտությունը կազմում է 4,295 մարդ/կմ²։
+                    <br>
+                    <br>
+                    Քաղաքը գտնվում է Լուսոն կղզու արևմտյան ափին և ուղղված է դեպի Հարավչինական ծովը։ Կառուցվել է տարբեր
+                    ոճերով, ճարտարապետության մեջ համակցված են ինչպես իսպանական, այնպես էլ արևելյան տարրեր։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/Doha.jpg">
+            <img class="card-img-top" src="img/wonderful cities/Doha.jpg" alt="Դոհա" title="Դոհա" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId25">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId25" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Դոհա</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Դոհա (արաբերեն՝ الدوحة), Կատարի մայրաքաղաքը։ Ըստ 2010 թվականի մարդահամարի՝ Դոհայի բնակչությունը
+                    կազմում է 796,947 մարդ։ Դոհան Կատարի ամենախիտ բնակված քաղաքն է։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/Durban.jpg">
+            <img class="card-img-top" src="img/wonderful cities/Durban.jpg" alt="Դուրբան" title="Դուրբան" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId26">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId26" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Դուրբան</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Դուրբան, քաղաք Հարավաֆրիկյան Հանրապետությունում։ ՀԱՀ-ի զբոսաշրջության գլխավոր կենտրոններից մեկը։
+                    Քաղաքը իր անկախությունը ստացել է 1880 թվականին։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/Kuala Lumpur.jpg">
+            <img class="card-img-top" src="img/wonderful cities/Kuala Lumpur.jpg" alt="Կուալա Լումպուր"
+              title="Կուալա Լումպուր" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId27">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId27" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Կուալա Լումպուր</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Կուալա Լումպուրը հիմնադրվել է 1857 թվականին։ 1880-1978 թվականները եղել է Սելանգորի մայրաքաղաքը։
+                    1946-1957 թվականները եղել է բրիտանական գաղութի վարչական կենտրոնը, 1957-1963 թվականները՝ անկախ
+                    Մալայայի Ֆեդերացիայի մայրաքաղաք, 1983 թվականից՝ Մալայզիայի մայրաքաղաք։ 1972 թվականի փետրվարի 1-ից
+                    կրում է քաղաքի կարգավիճակը, 1974 թվականից՝ Դաշնային տարածքի կարգավիճակ։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 col-xl-3">
+        <div class="card">
+          <a data-fslightbox="gallery" href="img/wonderful cities/La Paz.jpg">
+            <img class="card-img-top" src="img/wonderful cities/La Paz.jpg" alt="Լա Պաս" title="Լա Պաս" />
+          </a>
+          <div class="card-body">
+            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modelId28">
+              Ավելին
+            </button>
+            <div class="modal fade" id="modelId28" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Լա Պաս</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Լա Պաս (իսպաներեն՝ La Paz, (/lɑː ˈpɑːz/), պաշտոնական անվանումը՝ Nuestra Señora de La Paz (Իսպաներեն
+                    արտասանություն՝ [ˈnwestɾa seˈɲoɾa ðe la ˈpas], իսպաներենից բառացի թարգմանած՝ Խաղաղության մեր
+                    տիրուհի), այմարերեն անվանումը՝ Չուկի Յապու (Չուկիյագո)), քաղաք Բոլիվիայում, դե ֆակտո (դե ֆակտո)
+                    երկրի կառավարության նստավայրն ու մայրաքաղաքը (Բոլիվիա բազմազգ պետության սահմանադրական մայրաքաղաքը
+                    Սուկրեն է, որը նաև երկրի բարձրագույն դատական իշխանության նստավայրն է)։ Գտնվում է Կենտրոնական
+                    Անդերում, Լա Պաս գետի կիրճում, ծովի մակերևույթից մոտավորապես 3700 մ բարձրության վրա (աշխարհի
+                    ամենաբարձրադիր մայրաքաղաքն է)։ Միջազգային օդանավակայան է։
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact and map -->
+    <section class="contact change" id="contact">
+      <h2 class="text-left">ԿԱՊ</h2>
+      <br>
+      <div class="row">
+        <div class="col-lg-7">
+          <form action="/" class="mb-4 mb-lg-0">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Անուն" />
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Էլ. հասցե" />
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Վերնագիր" />
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" placeholder="Հաղորդագրություն"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">ՈՒՂԱՐԿԵԼ</button>
+          </form>
+        </div>
+        <div class="col-lg-5">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571289.733943155!2d76.08560099999998!3d29.058775699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e4a4b98404f57%3A0x75ffae70833e8448!2sShahbad%2C%20Haryana%20136135!5e0!3m2!1sen!2sin!4v1594195370933!5m2!1sen!2sin"
+              width="100%" height="350" frameborder="0" style="border: 0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Go-top -->
+    <a href="#" class="go-top"><i class="fa fa-angle-up fa-3x" aria-hidden="true"></i></a>
+    <!-- Social networks -->
+    <div class="social-networks">
+      <a href="">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true" alt="Facebook" title="Facebook"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-odnoklassniki-square fa-2x" aria-hidden="true" alt="Odnoklassniki" title="Odnoklassniki"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-youtube-play fa-2x" aria-hidden="true" alt="Youtube" title="Youtube"></i>
+      </a>
+      <a href="">
+        <i class="fa fa-twitter fa-2x" aria-hidden="true" alt="Twitter" title="Twitter"></i>
+      </a>
+    </div>
+    <br>
+    <!-- Copyright -->
+    <div class="text-center copyright">© 2021 7 Wonders</div>
+    <br>
+  </div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <script src="script.js"></script>
+  <script src="fslightbox-basic-3.2.3/fslightbox.js"></script>
 </body>
 
 </html>
