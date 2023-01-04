@@ -1,1 +1,1 @@
-# wonders7.github.io
+# sevenwonders.github.io
